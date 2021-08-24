@@ -2,7 +2,6 @@
 permalink: /about/
 title: "About"
 excerpt: "TFC is a great NGO."
-last_modified_at: 2021-05-11T10:23:16-04:00
 toc: true
 ---
 
@@ -32,4 +31,4 @@ TFC is a great NGO. :smile:.
 
 ---
 
-Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
+This website is designed, developed, and maintained by TFC. 
