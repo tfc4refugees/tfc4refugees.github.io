@@ -5,5 +5,7 @@ excerpt: "TFC is a great NGO."
 toc: true
 ---
 
+{% include base_path %}
+
 TFC is a great NGO. :smile:.
 
