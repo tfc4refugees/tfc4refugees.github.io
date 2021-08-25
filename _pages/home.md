@@ -5,5 +5,5 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /images/bg-home-page-tfc.jpg
   caption:
-excerpt: 'A flexible two-column Jekyll theme. Perfect for personal sites, blogs, and portfolios hosted on GitHub or your own server.'
+excerpt: 'We aim to provide legal assistance for those who are applying for or already in the procedure for recognition of refugee status.'
 ---
