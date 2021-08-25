@@ -1,6 +1,6 @@
 ---
 permalink: /about-us/
-title: "About Us"
+title: "ABOUT US"
 excerpt: "TFC works for refugees."
 last_modified_at: 2021-08-25T10:23:16-04:00
 toc: true
