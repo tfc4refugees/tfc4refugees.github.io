@@ -2,11 +2,11 @@
 main:
   - title: "Home"
     url: /
-  - title: "About"
+  - title: "ABOUT US"
     url: /about/
-  - title: "Sample Posts"
-    url: /year-archive/
-  - title: "Sample Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+  - title: "WHAT WE DO"
+    url: /what-we-do/
+  - title: "NEWS & STORIES"
+    url: /news-stories/
+  - title: "DONATE"
+    url: /donate/
