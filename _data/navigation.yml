@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: /
   - title: "ABOUT US"
-    url: /about/
+    url: /about-us/
   - title: "WHAT WE DO"
     url: /what-we-do/
   - title: "NEWS & STORIES"
