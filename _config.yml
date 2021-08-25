@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "The First Contact for Refugee"
+title                    : "The First Contact for Refugees"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "TFC"
@@ -105,7 +105,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**TFC** is for refugees."
   location         : "South Korea"
-  email            :
+  email            : "refugeecase@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
