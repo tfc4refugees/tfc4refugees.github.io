@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Home"
-    url: /
-  - title: "ABOUT US"
+#   - title: "Home"
+#     url: /
+  - title: "소개"
     url: /about-us/
-  - title: "WHAT WE DO"
-    url: /what-we-do/
-  - title: "NEWS & STORIES"
+#   - title: "활동"
+#     url: /what-we-do/
+  - title: "자료"
     url: /news-stories/
   - title: "후원하기"
     url: https://online.mrm.or.kr/tjuKL5l
