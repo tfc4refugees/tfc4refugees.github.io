@@ -6,8 +6,6 @@ tags:
   - News Letter
 ---
 
-# TFC 12월 뉴스레터
-
 * 건강과 평안을 기원합니다. 
 
 ### Ordered -- Unordered -- Ordered
