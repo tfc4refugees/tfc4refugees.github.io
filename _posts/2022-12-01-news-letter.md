@@ -1,7 +1,7 @@
 ---
 title: "TFC 12월 뉴스레터"
 categories:
-  - News Letter
+  - NewsLetter
 tags:
   - News Letter
 ---
