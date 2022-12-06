@@ -6,15 +6,14 @@ last_modified_at: 2021-08-25T10:23:16-04:00
 toc: true
 ---
 
-## OUR VISION
+## 소개
+TFC 는 이런 단체 입니다. 
 We aim to provide legal assistance for those who are applying for or already in the procedure for recognition of refugee status.
 
 ---
 
-## OUR STORY
-- 2019.01.01
-- 2020.03.01
-- 2021.08.01
+## 재정보고
 
-## MEET OUR TEAM
+## 일하는 사람들
 TFC is a great team. :smile:
+
