@@ -6,8 +6,8 @@ categories:
 tags:
   - Essay
 header:
-  image: /assets/images/posts/2022-12-05-sample-essay5/header.jpg
-teaser_image_path: /assets/images/posts/2022-12-05-sample-essay5/teaser.jpg
+  image: /assets/images/sample/Dec/02.jpg
+teaser_image_path: /assets/images/sample/Dec/02.jpg
 ---
 
 * 샘플 에세이 입니다. 
