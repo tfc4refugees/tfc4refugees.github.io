@@ -1,5 +1,5 @@
 ---
 permalink: /notices/
-layout: categories
+layout: posts
 author_profile: false
 ---
