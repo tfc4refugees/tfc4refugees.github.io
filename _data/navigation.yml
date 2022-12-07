@@ -4,9 +4,9 @@ main:
 #     url: /
   - title: "소개"
     url: /about-us/
-  - title: "참여하기"
-    url: /notices/
-  - title: "자료"
+  # - title: "참여하기"
+  #   url: /notices/
+  - title: "소식 및 자료"
     url: /stories/
   - title: "후원하기"
     url: https://online.mrm.or.kr/tjuKL5l
