@@ -24,4 +24,4 @@ TFC (The First Contact for Refugees)
 ## 재정보고
 TFC는 재정을 투명하게 관리하고 있습니다. 
 
-[재정보고 바로가기](/reports){: .btn}
+[재정보고 바로가기](/reports){: .btn .btn--inverse}
