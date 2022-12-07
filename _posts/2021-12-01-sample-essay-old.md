@@ -1,5 +1,6 @@
 ---
 title: "12월의 어느날"
+layout: single
 categories:
   - Essay
 tags:

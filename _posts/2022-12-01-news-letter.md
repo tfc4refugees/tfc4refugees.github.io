@@ -1,5 +1,6 @@
 ---
 title: "TFC 12월 뉴스레터"
+layout: single
 categories:
   - NewsLetter
 tags:
