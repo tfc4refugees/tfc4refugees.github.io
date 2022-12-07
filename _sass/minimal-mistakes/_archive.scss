@@ -32,22 +32,56 @@
 }
 
 .archive__subtitle {
-  margin: 1.414em 0 0.5em;
+  margin: 1.414em 0 0;
   padding-bottom: 0.5em;
   font-size: $type-size-5;
   color: $muted-text-color;
   border-bottom: 1px solid $border-color;
+  text-transform:capitalize;
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
   }
 }
 
+.archive__item {
+  position: relative;
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  a:hover {
+    .archive__item-title {
+      text-decoration: underline;
+    }
+
+    text-decoration: none;
+  }
+}
+
+.archive__item-date {
+  padding-bottom: 10px;
+  font-size: $type-size-7;
+  color: $gray;
+}
+
+.archive__item-excerpt {
+  margin-top: 0;
+  font-size: $type-size-6;
+
+  & + p {
+    text-indent: 0;
+  }
+}
+
 .archive__item-title {
-  margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
-  line-height: initial;
+  margin-bottom: 0em;
+  margin-top: 0em;
+  font-family: $header-font-family;
+  font-weight: $roboto-bold;
   overflow: hidden;
+  font-style: normal;
   text-overflow: ellipsis;
 
   a[rel="permalink"]::before {
@@ -62,6 +96,11 @@
   a + a {
     opacity: 0.5;
   }
+}
+
+.archive__item-author {
+  margin-top: 0em;
+  margin-bottom: 0.5em;
 }
 
 /* remove border*/
@@ -121,8 +160,8 @@
 }
 
 /*
-   List view
-   ========================================================================== */
+    List view
+    ========================================================================== */
 
 .list__item {
   .page__meta {
@@ -132,8 +171,8 @@
 }
 
 /*
-   Grid view
-   ========================================================================== */
+    Grid view
+    ========================================================================== */
 
 .archive {
   .grid__wrapper {
@@ -201,14 +240,6 @@
     font-size: 0.6em;
   }
 
-  .page__meta-sep {
-    display: block;
-
-    &::before {
-      display: none;
-    }
-  }
-
   .archive__item-title {
     margin-top: 0.5em;
     font-size: $type-size-5;
@@ -235,8 +266,8 @@
 }
 
 /*
-   Features
-   ========================================================================== */
+    Features
+    ========================================================================== */
 
 .feature__wrapper {
   @include clearfix();
@@ -439,10 +470,10 @@
 }
 
 /*
-   Wide Pages
-   ========================================================================== */
+    Wide Pages
+    ========================================================================== */
 
-  .wide {
+.wide {
   .archive {
     @include breakpoint($large) {
       padding-right: 0;
@@ -457,7 +488,7 @@
 /* Place inside a single layout */
 
 .layout--single {
-	.feature__wrapper {
-		display: inline-block;
-	}
+  .feature__wrapper {
+    display: inline-block;
+  }
 }
