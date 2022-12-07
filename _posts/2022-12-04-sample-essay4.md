@@ -5,6 +5,9 @@ categories:
   - Essay
 tags:
   - Essay
+header:
+  image: /assets/images/posts/2022-12-04-sample-essay4/header.jpg
+teaser_image_path: /assets/images/posts/2022-12-04-sample-essay4/teaser.jpg
 ---
 
 * 샘플 에세이 입니다. 
