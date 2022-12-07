@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: /images/bg-home-page-tfc.jpg
+  overlay_image: /assets/images/bg-home-page-tfc.jpg
   cta_label: "DONATE NOW"
   cta_url: "https://online.mrm.or.kr/tjuKL5l"
   caption:
