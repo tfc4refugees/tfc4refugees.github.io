@@ -11,6 +11,5 @@ excerpt: 'We aim to provide legal assistance for those who are applying for or a
 intro:
   - excerpt: 'Recent stories:'
 ---
-{% for f in feature_row %}
-{% for f in site.posts limit:3 %}
-{% endfor %}
+
+{% include feature_row_latest_posts %}
