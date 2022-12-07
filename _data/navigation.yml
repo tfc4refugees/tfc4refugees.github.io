@@ -4,8 +4,8 @@ main:
 #     url: /
   - title: "소개"
     url: /about-us/
-#   - title: "활동"
-#     url: /what-we-do/
+  - title: "참여하기"
+    url: /notices/
   - title: "자료"
     url: /categories/
   - title: "후원하기"

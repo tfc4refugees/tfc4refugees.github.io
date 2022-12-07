@@ -1,5 +1,6 @@
 ---
 layout: splash
+permalink: /
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/bg-home-page-tfc.jpg
@@ -7,4 +8,9 @@ header:
   cta_url: "https://online.mrm.or.kr/tjuKL5l"
   caption:
 excerpt: 'We aim to provide legal assistance for those who are applying for or already in the procedure for recognition of refugee status.'
+intro:
+  - excerpt: 'Recent stories:'
 ---
+{% for f in feature_row %}
+{% for f in site.posts limit:3 %}
+{% endfor %}
