@@ -1,4 +1,5 @@
 ---
+title: ""
 permalink: /about-us/
 excerpt: "TFC works for refugees."
 toc: true
@@ -22,4 +23,5 @@ TFC (The First Contact for Refugees)
 
 ## 재정보고
 TFC는 재정을 투명하게 관리하고 있습니다. 
-[재정보고 바로가기](#finance){: .btn}
+
+[재정보고 바로가기](/reports){: .btn}

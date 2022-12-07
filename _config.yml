@@ -29,6 +29,10 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+collections:
+  reports:
+    output: true
+    permalink: /:collection/:path/
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -298,3 +302,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _reports
+  - scope:
+      path: ""
+      type: reports
+    values:
+      layout: single
+      author_profile: false
+      share: true
