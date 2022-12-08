@@ -1,6 +1,20 @@
 ---
-title: "DONATE"
+title: "후원하기"
 permalink: /donate/
-layout: posts
-author_profile: false
+author_profile: true
 ---
+
+## 후원하기
+
+[나의 후원정보](https://online.mrm.or.kr/tjuKL5l/login){: .btn .btn--inverse} [후원하기](https://online.mrm.or.kr/tjuKL5l){: .btn .btn--primary}
+
+## 기부금 영수증
+
+<form>
+  <fieldset>
+    <legend>기부금영수증 발행 계좌</legend>
+    343601-04-135314 국민은행: (재)한빛누리(TFC)<br>
+    <legend>기부금영수증 미 발행 TFC직접 후원 계좌</legend>
+    639001-01-678494 국민은행: 더퍼스트컨텍포레퓨지<br>
+  </fieldset>
+</form>
