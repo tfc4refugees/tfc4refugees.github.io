@@ -219,13 +219,13 @@ body {
     }
 
     .page__lead {
-      color: #3E807A;
+      color: #fff;
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
       max-width: $medium;
     }
 
     .page__title {
-      font-size: $type-size-2;
+      font-size: $type-size-3;
 
       @include breakpoint($small) {
         font-size: $type-size-1;
