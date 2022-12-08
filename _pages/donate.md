@@ -2,6 +2,8 @@
 title: ""
 permalink: /donate/
 author_profile: true
+header:
+  image: /assets/images/pages/donate.jpg
 ---
 
 ## 후원하기
