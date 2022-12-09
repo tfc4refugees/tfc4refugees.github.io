@@ -20,6 +20,7 @@ title                    : "TFC"
 title_separator          : ""
 subtitle                 : "The First Contact For Refugees" # site tagline that appears below site title in masthead
 name                     : "TFC(The First Contact For Refugees)"
+local_name               : "더퍼스트컨텍포레퓨지(TFC)"
 description              : "An amazing website."
 url                      : "https://tfc4refugees.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
@@ -140,6 +141,8 @@ footer:
       value: "000-00-00000"
     - label: "대표자"
       value: "김성인"
+    - label: "주소"
+      value: "서울특별시 XX구"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
