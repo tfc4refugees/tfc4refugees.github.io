@@ -7,7 +7,7 @@ tags:
   - Essay
 header:
   image: /assets/images/sample/Dec/01.jpg
-teaser_image_path: /assets/images/sample/Dec/01.jpg
+# teaser_image_path: /assets/images/sample/Dec/01.jpg
 ---
 
 * 샘플 에세이 입니다. 
