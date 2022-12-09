@@ -3,15 +3,15 @@
     {% unless logo_path == empty %}
     <li><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></li>
     {% endunless %}
-    {% if site.title %}
-      <li><strong>{{ site.title }}</strong></li>
-    {% endif %}    
+    {% if site.name %}
+      <li><strong>{{ site.name }}</strong></li>
+    {% endif %}
 
     {% if site.footer.infos %}
-    <div class>
+    <div class="page__footer-copyright">
       {% for info in site.footer.infos %}
         {% if info.label and info.value %}
-        <div class><span><strong>{{ info.label }}</strong></span> <span>{{ info.value }}</span></div>
+        <div><span><strong>{{ info.label }}</strong></span> <span>{{ info.value }}</span></div>
         {% endif %}
       {% endfor %}
     </div>
@@ -31,4 +31,4 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "모든권리보유" }}</div>
