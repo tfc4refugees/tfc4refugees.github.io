@@ -3,6 +3,8 @@ title: ""
 permalink: /about-us/
 excerpt: "TFC works for refugees."
 toc: true
+header:
+  image: /assets/images/pages/about-us.jpg
 ---
 
 ## 소개
