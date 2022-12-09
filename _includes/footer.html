@@ -1,17 +1,17 @@
 <div class="page__footer-follow">
   <ul class="social-icons">
     {% unless logo_path == empty %}
-    <li><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></li>
+      <div><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></div>
     {% endunless %}
     {% if site.name %}
-      <li><strong>{{ site.name }}</strong></li>
+      <div><strong>{{ site.name }}</strong></div>
     {% endif %}
 
     {% if site.footer.infos %}
     <div class="page__footer-copyright">
       {% for info in site.footer.infos %}
         {% if info.label and info.value %}
-        <div><span><strong>{{ info.label }}</strong></span> <span>{{ info.value }}</span></div>
+        <li><span><strong>{{ info.label }}</strong></span> <span>{{ info.value }}</span></li>
         {% endif %}
       {% endfor %}
     </div>
