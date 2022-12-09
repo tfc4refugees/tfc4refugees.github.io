@@ -3,6 +3,22 @@
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
+    {% unless logo_path == empty %}
+    <li><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></li>
+    {% endunless %}
+    {% if site.title %}
+      <li><strong>{{ site.title }}</strong></li>
+    {% endif %}    
+
+    {% if site.footer.infos %}
+    <div class>
+      {% for info in site.footer.infos %}
+        {% if info.label and info.value %}
+        <div class><span><strong>{{ info.label }}</strong></span> <span>{{ info.value }}</span></div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
 
     {% if site.footer.links %}
       {% for link in site.footer.links %}
