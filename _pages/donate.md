@@ -8,7 +8,7 @@ header:
 
 ## 후원하기
 
-[나의 후원정보](https://online.mrm.or.kr/tjuKL5l/login){: .btn .btn--inverse} [후원하기](https://online.mrm.or.kr/tjuKL5l){: .btn .btn--primary}
+[후원하기](https://online.mrm.or.kr/tjuKL5l){: .btn .btn--primary} [나의 후원정보](https://online.mrm.or.kr/tjuKL5l/login){: .btn .btn--inverse} 
 
 ## 후원 계좌
 
